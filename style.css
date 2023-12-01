@@ -61,7 +61,7 @@ header{
 }
 
 .image-container{
-    background-image: url("/images/background2.jpg");
+    background-image: url("./images/background2.jpg");
     display: flex;
     align-items: center;
     text-align:center;
@@ -95,7 +95,7 @@ li {
     display: inline-block;
     text-align: center;
     margin-top: 50px;
-    margin-right:250px;
+    margin-right:20px;
     background-color: #0000;
     /* border: 2px solid red; */
 }
