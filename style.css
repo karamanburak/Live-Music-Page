@@ -61,7 +61,7 @@ header{
 }
 
 .image-container{
-    background-image: url(../images/background2.jpg);
+    background-image: url(images/background2.jpg);
     display: flex;
     align-items: center;
     text-align:center;
