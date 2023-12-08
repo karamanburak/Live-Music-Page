@@ -1,220 +1,194 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100&family=Rubik+Beastly&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100&family=Rubik+Beastly&display=swap");
 
 /* font-family: 'Permanent Marker', cursive; */
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Rubik Moonrocks', sans-serif; */
 
-
-
-
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    background-color: black;
-     background-repeat: no-repeat;
-    background-size: cover;
-    
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-body{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
 }
-header{
-    /* background-color: black; */
-    height: 30px;
-    margin-top: 10px;
+header {
+  /* background-color: black; */
+  height: 30px;
+  margin-top: 10px;
 }
-.social-icons{
-    display: flex;
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 5px;
-    font-size: 20px;
-    /* border: 2px solid red; */
-}
-
-.fa-twitter{
-    margin-left: 10px;
-}
-.fa-instagram{
-    margin-left: 10px;
+.social-icons {
+  display: flex;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 5px;
+  font-size: 20px;
+  /* border: 2px solid red; */
 }
 
-.artist,.music,.videos,.blog,.contact{
-    margin-left: 20px;
-    
-
+.fa-twitter {
+  margin-left: 10px;
+}
+.fa-instagram {
+  margin-left: 10px;
 }
 
-.navbar-container{
-    display: inline-block;
-     margin-left: 50px;
-    font-family: 'Rubik Beastly';
-    font-size: 16px;
-    /* border: 1px solid red; */
-    
-
+.artist,
+.music,
+.videos,
+.blog,
+.contact {
+  margin-left: 20px;
 }
 
-.image-container{
-    background-image: url("./images/background2.jpg");
-    display: flex;
-    align-items: center;
-    text-align:center;
-    height: 500px;
-    background-size: cover;
-    justify-content: center;
-    
+.navbar-container {
+  display: inline-block;
+  margin-left: 50px;
+  font-family: "Rubik Beastly";
+  font-size: 16px;
+  /* border: 1px solid red; */
 }
 
+.image-container {
+  background-image: url("./images/background2.jpg");
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  background-size: cover;
+  justify-content: center;
+}
 
-
-ul{
-   list-style-type: none;
-
+ul {
+  list-style-type: none;
 }
 li {
-    float: left;
-  }
-
-  li a{
-    margin-left: 10px;
-    text-decoration: none;
-  }
-
-  .image{
-    /* border: 2px solid red; */
-  }
-
-.yazilar{
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    margin-top: 50px;
-    margin-right:20px;
-    background-color: #0000;
-    /* border: 2px solid red; */
+  float: left;
 }
 
-
-.yazi1{
-  
-    padding-left: 150px;
-    margin-top: 100px;
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-variant: small-caps;
-    text-decoration: none;
-    font-size: 16px;
-    letter-spacing: 4px;
-    background-color: #0000;
-   
-       
-    
-   
-
-}
- .input{
-    border-bottom: 5px solid #ff0078;
-    margin-right: 110px;
+li a {
+  margin-left: 10px;
+  text-decoration: none;
 }
 
-.input:focus{
-   outline: none;
-} 
-
-.yazi1:hover{
-
-text-decoration: underline;
-
-
+.image {
+  /* border: 2px solid red; */
 }
 
-.yazi2{
-    margin-right: 90px;
-    margin-top: 80px ;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
-    background-color: #0000;
+.yazilar {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 20px;
+  background-color: #0000;
+  /* border: 2px solid red; */
 }
 
-.yazi2:hover{
-    margin-right: 20px ;
-    color: #ff0078;
-    text-decoration: underline;
-
+.yazi1 {
+  padding-left: 150px;
+  margin-top: 100px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 4px;
+  background-color: #0000;
+}
+.input {
+  border-bottom: 5px solid #ff0078;
+  margin-right: 110px;
 }
 
-
-.yazi3{
-    margin-right: 90px;
-     padding-top: 40px;
-    background-color: #0000;
+.input:focus {
+  outline: none;
 }
 
-.yazi3:hover{
-    text-decoration: underline;
+.yazi1:hover {
+  text-decoration: underline;
 }
 
-button{
-    margin-top: 30px;
-    margin-right: 110px;
-    width:120px;
-    text-align: center;
-    border-radius: 50px;
-    padding: 10px;
-    background-color: #ff0078;
-   border: none;
+.yazi2 {
+  margin-right: 90px;
+  margin-top: 80px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+  background-color: #0000;
 }
 
-button:hover{
-
-    background-color: white;
-    color: #ff0078;
-    text-decoration: underline;
-}
-.social-media{
-    display: inline-block;
-    width: 350px;
-    padding: 30px;
-    margin-top: 90px;
-    margin-left: 100px;
-    /* border: 2px solid red; */
+.yazi2:hover {
+  margin-right: 20px;
+  color: #ff0078;
+  text-decoration: underline;
 }
 
-.fa-solid{
-    font-size: 40px;
-    margin-left: 500px;
-
+.yazi3 {
+  margin-right: 90px;
+  padding-top: 40px;
+  background-color: #0000;
 }
 
-.fa-music{
-    margin-left: 100px;
-    border-radius: 50%;
-    padding: 20px;
-    background-size: cover;
-    position: relative;
-    background-color: #ff0078;
-    
-}
-.fa-user{
-    margin-left: 100px;
-    border-radius: 50%;
-    padding: 20px;    
-    background-color: #f6f034;
-
-}
-.fa-video{
-
-    margin-left: 100px;
-    border-radius: 50%;
-    padding: 20px;
-background-color:#7ed22a ;
+.yazi3:hover {
+  text-decoration: underline;
 }
 
- 
+button {
+  margin-top: 30px;
+  margin-right: 110px;
+  width: 120px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #ff0078;
+  border: none;
+}
 
+button:hover {
+  background-color: white;
+  color: #ff0078;
+  text-decoration: underline;
+}
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid {
+  font-size: 40px;
+  margin: 50px 30px 15px 30px;
+}
+
+.fa-music {
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #ff0078;
+}
+.fa-user {
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #f6f034;
+}
+.fa-video {
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #7ed22a;
+}
