@@ -36,11 +36,9 @@ header {
 }
 
 .navbar-container {
-  display: inline-block;
   margin-left: 50px;
   font-family: "Rubik Beastly";
   font-size: 16px;
-  /* border: 1px solid red; */
 }
 
 .image-container {
