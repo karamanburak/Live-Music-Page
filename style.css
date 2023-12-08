@@ -93,7 +93,7 @@ li a {
 
 .yazi2:hover {
   margin-right: 20px;
-  color: #ff0078;
+  color: aqua;
   text-decoration: underline;
 }
 
@@ -114,13 +114,13 @@ button {
   text-align: center;
   border-radius: 50px;
   padding: 10px;
-  background-color: #ff0078;
+  background-color: rgba(8, 126, 126, 0.521);
   border: none;
 }
 
 button:hover {
   background-color: white;
-  color: #ff0078;
+  color: rgba(8, 126, 126, 0.521);
   text-decoration: underline;
 }
 .social-media {
